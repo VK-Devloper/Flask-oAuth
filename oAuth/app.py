@@ -4,6 +4,7 @@ from flask_jwt_extended import JWTManager
 from marshmallow import ValidationError
 from dotenv import load_dotenv
 
+import os
 load_dotenv(".env")
 
 from .db import db
